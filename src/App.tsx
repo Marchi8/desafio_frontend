@@ -2,12 +2,15 @@ import './App.css';
 import { Route, Routes } from 'react-router-dom';
 import Dashboard from './pages/Dashboard';
 import GlobalStyle from './styles/global';
+import SalesProvider from './contexts/SalesContext';
 
 function App() {
   return (
     <div className="App">
-      <GlobalStyle />
-      <Dashboard />
+      <SalesProvider>
+        <GlobalStyle />
+        <Dashboard />
+      </SalesProvider>
     </div>
   )
 }
