@@ -16,10 +16,6 @@ export interface ISaleContext {
     onSubmit: (data: ISale) => void;
 }
 
-// export interface IResponseSaleData {
-
-// }
-
 export const SalesContext = createContext<ISaleContext>({} as ISaleContext)
 
 function SalesProvider({ children }: ISalesProps) {

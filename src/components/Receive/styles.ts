@@ -6,22 +6,16 @@ const Aside = styled.aside`
     height: 420px;
     display: flex;
     flex-direction: column;
-    // align-items: flex-start;
     align-items: center;
     justify-content: center;
-    border-radius: 0px 10px 10px 0px; 
-    // margin-left: 60px;
-
+    border-radius: 0px 10px 10px 0px;
 
     h4{
         font-style: italic;
         font-weight: 800;
         color: rgb(81, 135, 211);
-        // margin-left: -10px;
         margin-top: 50px;
         margin-bottom: 5px;
-        // background-color: black;
-        // display: flex;
     }
 
     div{
@@ -35,28 +29,20 @@ const Aside = styled.aside`
         list-style: none;
         display: flex;
         align-items: center;
-        // justify-content: flex-start;
+        justify-content: center;
         flex-direction: column;
-        background-color: rgb(81, 135, 211);
-        // text-align: center;
-        width: 500px;
-        // text-align: center;
+        text-align: center;
         padding: 0;
     }
-// PAREI AGUI
-    li{
-        // display: flex;
-        display: inline-block;
-        // flex-direction: row;
-        // align-items: flex-start;
-        // justify-content: flex-start;
-        // margin-left: -100px;
-        background-color: pink;
-        // font-style: italic;
-        font-weight: 800;
-        color: rgb(81, 135, 211);
-        // width: 50px;
 
+    li{
+        font-style: italic;
+        font-weight: 300;
+        color: rgb(81, 135, 211);
+    }
+
+    li>span{
+        font-weight: 500;
     }
 `
 export { Aside }
