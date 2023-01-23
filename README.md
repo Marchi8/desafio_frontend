@@ -1,4 +1,4 @@
-# Como utilizar a aplicação
+# Como utilizar a aplicação localmente:
 
 1. Faça o clone do repositório;
 ```shell
@@ -17,3 +17,6 @@ yarn dev
 
 # Sobre o desafio:
 Hoje nossos clientes precisam saber quanto custa antecipar uma transação, e para isso, precisamos desenvolver uma calculadora de antecipação para que os mesmos consigam saber quais valores receberão caso optem por antecipar o recebimento.
+
+## Você pode testar o app aqui: 
+https://desafio-frontend-gamma.vercel.app/
