@@ -6,7 +6,17 @@ const Main = styled.main`
     justify-content: center;
     flex-direction: row;
     box-shadow: 0px 0px 0px 2px rgba(0,0,0,0.2); 
-    border-radius: 10px;
+    border-radius: 4px;
+    width: 680px;
+    
+    @media(max-width:1000px) {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 320px;
+        max-height: 100vh;
+    }
 
     .componente1{
         background-color: white;
